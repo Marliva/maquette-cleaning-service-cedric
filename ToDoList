@@ -1,0 +1,53 @@
+- Structurer l'html
+
+    - Header x
+        - nav x
+        - galerie x
+        - CTA x
+    
+    - main x
+        - cards x
+        - buttons x
+        - cards en colonne (row-inverse) x
+        - cards how it works x
+        - cards témoignages x
+        - logos partenaires x
+        - bgimg contact x
+
+
+    - footer 
+
+
+
+- CSS
+
+    - Header 
+        - nav (fixed)
+            - logo 
+            - a 
+        - background image 
+            - texte 
+        - CTA
+            - formulaire
+
+    - main 
+        - cards
+            - titre 
+            - fond noir 
+            - cards row 
+            - buttons 
+        - cards en colonne 
+            - image 
+            - texte 
+            - button 
+        - cards how it works 
+        
+        - cards témoignages 
+            - image bg
+            - texte 
+            - button 
+        - logos partenaires 
+        - bgimg contact + button
+
+
+    - footer 
