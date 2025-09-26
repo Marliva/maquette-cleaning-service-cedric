@@ -1,0 +1,214 @@
+/* --------Main Services-------- */
+
+.main-services {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 300px;
+    padding-bottom: 100px;
+    width: 100%;
+    height: 600px;
+}
+
+.main-services-infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-top: 150px;
+    color: white;
+}
+
+.main-services-infos h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 150px;
+}
+
+.main-services-infos h4 {
+    font-size: 20px;
+    width: 55%;
+    text-align: center;
+    font-weight: 600;
+}
+
+.main-services-cards {
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+    margin-top: 80px;
+    
+}
+
+.main-services-cards-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 450px;
+    background-color: #fff;
+    border: 1px solid #000000;
+    margin: 10px;
+
+}
+
+.main-services-cards-card img {
+    width: 120px;
+    height: auto;
+    margin-top: 75px;
+}
+
+.main-services-cards-card h3 {
+    font-size: 20px;
+    margin-top: 30px;
+    color: black;
+    font-weight: 500;
+}
+
+.main-services-cards-card p {
+    font-size: 15px;
+    margin-top: 20px;
+    color: black;
+    font-weight: 400;
+    text-align: center;
+    width: 70%;
+}
+
+.main-services-cards-card h6 {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: black;
+    font-weight: 500;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+.main-services-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.main-services-buttons-firstButton {
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: #000000;
+    color: #fff;
+    font-weight: 500;
+}
+
+.main-services-buttons-secondButton {
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: #fff;
+    border: 1px solid #000000;
+    color: #000000;
+    font-weight: 500;
+}
+
+
+/* --------Main About-------- */
+
+.main-about {
+    margin-top: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main-about-card {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    max-width: 80%;
+    padding-bottom: 50px;
+
+}
+
+.main-about-card-image img {
+    width: 100%;
+}
+
+.main-about-card-image {
+    width: 50%;
+}
+
+.main-about-card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    padding-bottom: 50px;
+}
+
+.main-about-card-text h2 {
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.main-about-card-text p {
+    font-weight: 400;
+    width: 80%;
+    font-size: 17px;
+}
+
+.main-about-card-text h6 {
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.main-about-card-rightText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    padding-bottom: 50px;
+}
+
+.main-about-card-rightText h2 {
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 30px;
+    width: 65%;
+    padding-left: 100px;
+}
+
+.main-about-card-rightText p {
+    font-weight: 400;
+    width: 90%;
+    font-size: 17px;
+    padding-left: 100px;
+}
+
+.main-about-card-rightText-button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: #000000;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 100px;
+}
+
+
+/* --------Main itWorks-------- */
+
+.main-itWorks {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 200px;
+    width: 100%;
+    height: 600px;
+}
