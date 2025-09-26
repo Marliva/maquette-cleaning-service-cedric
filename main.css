@@ -39,7 +39,7 @@
     justify-content: center;
     max-width: 80%;
     margin-top: 80px;
-    
+
 }
 
 .main-services-cards-card {
@@ -203,12 +203,136 @@
 /* --------Main itWorks-------- */
 
 .main-itWorks {
-
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top: 200px;
+    padding-top: 300px;
+    padding-bottom: 100px;
     width: 100%;
     height: 600px;
 }
+
+.main-itWorks-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.main-itWorks-title h2 {
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.main-itWorks-title p {
+    font-size: 20px;
+    width: 55%;
+    text-align: center;
+    font-weight: 500;
+}
+
+.main-itWorks-cards {
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+    margin-top: 80px;
+
+}
+
+.main-itWorks-cards-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 450px;
+    background-color: #fff;
+    border: 1px solid #000000;
+    margin: 10px;
+
+}
+
+.main-itWorks-cards-card img {
+    width: 120px;
+    height: auto;
+    margin-top: 75px;
+}
+
+.main-itWorks-cards-card h3 {
+    font-size: 20px;
+    margin-top: 30px;
+    color: black;
+    font-weight: 600;
+}
+
+.main-itWorks-cards-card p {
+    font-size: 15px;
+    margin-top: 40px;
+    color: black;
+    font-weight: 400;
+    text-align: center;
+    width: 65%;
+}
+
+
+/* --------Main Blog-------- */
+
+.main-blog {
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main-blog-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.main-blog-title h2 {
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.main-blog-title p {
+    font-size: 20px;
+    width: 55%;
+    text-align: center;
+    font-weight: 500;
+}
+
+.main-blog-container-cards {
+    display: flex;
+    justify-content: center;
+
+    }
+.main-blog-container-cards-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    border: 1px solid #000000;
+    margin: 10px;
+    margin-top: 80px;
+    
+}
+
+
+
+/* .main-blog-container-card h3 {
+    font-size: 20px;
+    margin-top: 30px;
+    color: black;
+    font-weight: 600;
+}
+
+.main-blog-container-card p {
+    font-size: 15px;
+    margin-top: 40px;
+    color: black;
+    font-weight: 400;
+    text-align: center;
+    width: 65%;
+} */
