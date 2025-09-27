@@ -303,36 +303,64 @@
     font-weight: 500;
 }
 
-.main-blog-container-cards {
+.main-blog-container {
     display: flex;
     justify-content: center;
+    max-width: 80%;
+    margin-top: 80px;
+}
 
-    }
-.main-blog-container-cards-card {
+.main-blog-container-card {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    height: 450px;
     border: 1px solid #000000;
     margin: 10px;
     margin-top: 80px;
-    
+
 }
 
-
-
-/* .main-blog-container-card h3 {
-    font-size: 20px;
-    margin-top: 30px;
-    color: black;
-    font-weight: 600;
+.main-blog-container-card i {
+    margin-top: 20px;
+    margin-right: 400px;
+    font-size: 40px;
 }
 
 .main-blog-container-card p {
-    font-size: 15px;
-    margin-top: 40px;
-    color: black;
-    font-weight: 400;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
     width: 65%;
-} */
+}
+
+.main-blog-container-card-avatar {
+    display: flex;
+    margin: 50px 90px 50px 0;
+
+}
+
+.main-blog-container-card-avatar img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.main-blog-container-card-avatar-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-blog-container-card-avatar-name p {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.main-blog-container-card-avatar-name p:first-child {
+    font-weight: 700;
+    width: 130px;
+}
+
+.main-blog-container-card-avatar-name p:last-child {
+    font-weight: 300;
+    font-size: 16px;
+}
