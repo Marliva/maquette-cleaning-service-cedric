@@ -5,7 +5,7 @@
     background-color: #fff;
     display: flex;
     flex-direction: column;
-   
+
 }
 
 .home-container-nav {
@@ -24,7 +24,7 @@
     margin-top: 10px;
     z-index: 1000;
     border: 1px solid #000000;
-    
+
 }
 
 .home-container-nav-nav-logo {
@@ -44,6 +44,8 @@
 
 .home-container-nav-nav-navBar li {
     font-weight: 300;
+    padding: 19px 25px;
+
 }
 
 .home-container-nav-nav-navBar li:hover {
@@ -51,7 +53,8 @@
     color: #000000;
     font-weight: 300;
     cursor: pointer;
-    padding: 20px 25px;
+    padding: 19px 25px;
+    /* Mettre le même padding sur les listes au-dessus pour éviter un décalage du texte lors du hover */
 }
 
 .home-container-nav-nav-callUs {
@@ -84,7 +87,7 @@
     background-position: contain center;
     background-size: cover;
     background-repeat: no-repeat;
-    
+
 }
 
 .home-container-gallery-content {
@@ -154,7 +157,7 @@
     color: #000000;
     padding-left: 10px;
     font-weight: 100;
-} 
+}
 
 input::placeholder {
     color: #000000;
@@ -169,9 +172,5 @@ input::placeholder {
     background-color: #000000;
     color: #fff;
     font-weight: 500;
+    cursor: pointer;
 }
-
-
-
-
-
